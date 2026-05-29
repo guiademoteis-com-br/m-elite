@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="theme-color" content="#000000" />
+
+  <title>M Elite Grupo Empresarial — Elige tu destino</title>
+  <meta name="description" content="M Elite Grupo Empresarial. Elige tu destino: M Elite Black, Orange, Golden o Red." />
+  <meta name="robots" content="index, follow" />
+
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo-m.svg" />
+
+  <!-- Preload do LCP -->
+  <link rel="preload" as="image" href="assets/images/bg-m.png" type="image/webp" media="(min-width: 641px)" />
+  <link rel="preload" as="image" href="assets/images/bg-m.webp" type="image/webp" media="(max-width: 640px)" />
+  <link rel="preload" as="image" href="assets/images/logo.webp" type="image/webp" media="(min-width: 641px)" />
+  <link rel="preload" as="image" href="assets/images/logo-m.webp" type="image/webp" media="(max-width: 640px)" />
+
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <div class="overlay">
+    <main class="content">
+      <h1 class="visually-hidden">M Elite Grupo Empresarial — Elige tu destino</h1>
+
+      <picture>
+        <source type="image/webp" media="(max-width: 640px)" srcset="assets/images/logo-m.webp" />
+        <source type="image/webp" srcset="assets/images/logo.webp" />
+        <img class="logo" src="assets/images/logo.svg" alt="M Elite Grupo Empresarial" width="403" height="113" fetchpriority="high" decoding="async"/>
+      </picture>
+
+      <div class="bar-wrap">
+        <div class="bar">
+          <span class="bar__chevron" aria-hidden="true">&#10095;</span>
+          <span class="bar__text">Elige tu destino</span>
+          <span class="bar__chevron" aria-hidden="true">&#10094;</span>
+        </div>
+      </div>
+
+      <nav class="buttons" aria-label="Destinos M Elite">
+        <a class="btn" href="black">M Elite Black</a>
+        <a class="btn" href="orange">M Elite Orange</a>
+        <a class="btn" href="golden">M Elite Golden</a>
+        <a class="btn" href="red">M Elite Red</a>
+      </nav>
+    </main>
+  </div>
+</body>
+</html>
