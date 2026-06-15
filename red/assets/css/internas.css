@@ -31,7 +31,7 @@
   color: #fff;
 }
 
-.topo__content--text h2 {
+.topo__content--text h1 {
   color: #fff;
   font-family: "Helvetica Neue Bold", sans-serif;
   font-weight: 400;
@@ -288,7 +288,7 @@ small {
     padding-top: 25%;
   }
 
-  .topo__content--text h2 {
+  .topo__content--text h1 {
     font-size: 32px;
   }
 
